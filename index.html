@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trusha Tanna | IoT & Embedded Systems Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    body {
+      background-color: #f4f7f9;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #0f172a, #1e3a8a);
+      color: #ffffff;
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.4rem;
+      letter-spacing: 0.5px;
+    }
+    header p {
+      font-size: 1.05rem;
+      color: #cbd5e1;
+      max-width: 650px;
+      margin: 0 auto 1rem;
+    }
+    .contact-links {
+      font-size: 0.9rem;
+      color: #93c5fd;
+    }
+    .contact-links a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 8px;
+      border-bottom: 1px solid #60a5fa;
+    }
+    .container {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1.2rem;
+    }
+    section {
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 1.8rem;
+      margin-bottom: 1.8rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+    h2 {
+      color: #1e3a8a;
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 0.4rem;
+    }
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+    }
+    .skill-tag {
+      background: #eff6ff;
+      color: #1d4ed8;
+      padding: 0.4rem 0.85rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      border: 1px solid #bfdbfe;
+    }
+    .project-card, .exp-item {
+      margin-bottom: 1.4rem;
+      padding-bottom: 1.2rem;
+      border-bottom: 1px solid #f1f5f9;
+    }
+    .project-card:last-child, .exp-item:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+    .project-card h3, .exp-item h3 {
+      font-size: 1.12rem;
+      color: #0f172a;
+      margin-bottom: 0.3rem;
+    }
+    .tech-used {
+      font-size: 0.85rem;
+      color: #2563eb;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    ul {
+      margin-left: 1.2rem;
+      margin-top: 0.4rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      color: #64748b;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>TRUSHA TANNA</h1>
+    <p>Fourth-Year Electronics & Communication Engineering Student | IoT, Sensor Interfacing & Smart Automation</p>
+    <div class="contact-links">
+      Gujarat, India &bull;
+      <a href="mailto:trushatanna0208@gmail.com">trushatanna0208@gmail.com</a> &bull;
+      <span>+91-9106349535</span>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Electronics and Communication Engineering student interested in IoT, sensor interfacing, and smart automation. 
+        Experienced with C, C++, Python, Arduino-based systems, and basic circuit design. Seeking an IoT internship 
+        to apply technical knowledge and build practical hardware-software solutions.
+      </p>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <span class="skill-tag">C / C++</span>
+        <span class="skill-tag">Python (Pandas, NumPy)</span>
+        <span class="skill-tag">Arduino</span>
+        <span class="skill-tag">ESP8266 NodeMCU</span>
+        <span class="skill-tag">ESP32</span>
+        <span class="skill-tag">Blynk IoT</span>
+        <span class="skill-tag">MQTT & Node-RED</span>
+        <span class="skill-tag">UART / I2C / SPI</span>
+        <span class="skill-tag">KiCad</span>
+        <span class="skill-tag">Circuit Design</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>IoT & Embedded Projects</h2>
+
+      <div class="project-card">
+        <h3>1. IoT-Based Smart Water Tank Level Monitoring & Pump Automation</h3>
+        <div class="tech-used">ESP8266 NodeMCU &bull; Arduino UNO &bull; HC-SR04 Ultrasonic Sensor &bull; Relay &bull; Blynk</div>
+        <p>
+          Measures tank water levels and communicates via M2M protocol to automatically toggle a water pump ON/OFF, 
+          preventing overflow and dry-run waste with real-time Blynk alerts.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>2. IoT-Based Smart Home Automation & Monitoring System</h3>
+        <div class="tech-used">ESP32 &bull; IR, MQ-135, LM35 & Voltage Sensors &bull; Relay Module &bull; Blynk</div>
+        <p>
+          Monitors indoor temperature, air quality, motion, and voltage levels while enabling remote appliance 
+          automation through a mobile Blynk dashboard.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>3. IoT-Based Product Counting System</h3>
+        <div class="tech-used">ESP8266 NodeMCU &bull; IR Sensor &bull; MQTT &bull; Node-RED</div>
+        <p>
+          Detects items passing a checkpoint using an IR sensor and streams real-time production count telemetry 
+          via MQTT to a live Node-RED visual dashboard.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>4. Arduino-Based Smart Street Light System</h3>
+        <div class="tech-used">Arduino &bull; LDR Sensor &bull; PIR Motion Sensor</div>
+        <p>
+          Automates street lighting based on ambient daylight conditions and motion detection to reduce unnecessary 
+          power consumption.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>5. Arduino-Based Smart Plant Health Monitoring System</h3>
+        <div class="tech-used">Arduino &bull; Soil-Moisture Sensor</div>
+        <p>
+          Tracks soil moisture levels to detect watering needs and support efficient, automated plant care.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Internship Experience</h2>
+
+      <div class="exp-item">
+        <h3>Embedded Systems Intern &mdash; Codec Technologies</h3>
+        <ul>
+          <li>Programmed microcontrollers using Embedded C/C++ to interface with external sensors.</li>
+          <li>Configured UART, I2C, and SPI hardware communication protocols.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <h3>Data Analytics Intern &mdash; Soft Nexis Technology</h3>
+        <ul>
+          <li>Cleaned and processed raw sensor telemetry data for engineering analysis.</li>
+          <li>Built data transformation scripts using Python (Pandas and NumPy).</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="exp-item">
+        <h3>B.E. in Electronics and Communication Engineering</h3>
+        <p>Government Engineering College, Bhavnagar | 2023 &ndash; 2027</p>
+        <p><strong>CGPA:</strong> 8.39 (After 6th Semester)</p>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    &copy; 2026 Trusha Tanna. Built for GitHub Pages.
+  </footer>
+
+</body>
+</html>
